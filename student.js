@@ -1,3 +1,4 @@
+var table = module.exports.table();
 table.read(function (context) {
   return context.execute();
 });
